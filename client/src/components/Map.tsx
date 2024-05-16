@@ -82,6 +82,17 @@ const Map: FunctionComponent<iMapProps> = () => {
             "fill-opacity": 0.4,
           },
         });
+
+        map.current?.addLayer({
+          id: "areas-outline",
+          type: "line",
+          source: "areas",
+          layout: {},
+          paint: {
+            "line-color": "#000",
+            "line-width": 3,
+          },
+        });
       });
     }
 
