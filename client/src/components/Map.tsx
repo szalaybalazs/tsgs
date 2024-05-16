@@ -10,9 +10,9 @@ interface iMapProps {
 }
 
 const initialPosition = {
-  lng: -0.175321395,
-  lat: 51.602199086,
-  zoom: 15,
+  lng: 0.1276,
+  lat: 51.5072,
+  zoom: 10,
 };
 
 const getInitialPosition = () => {
