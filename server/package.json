@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node index.ts",
+    "build": "npx ncc build ./index.ts -o dist",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "Szalay Balázs",
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
-    "@types/pg": "^8.11.6"
+    "@types/pg": "^8.11.6",
+    "typescript": "^5.4.5"
   }
 }
