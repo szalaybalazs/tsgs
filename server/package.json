@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node index.ts",
-    "build": "npx ncc build ./index.ts -o dist",
+    "build": "ncc build ./index.ts -o dist",
     "start": "node dist/index.js"
   },
   "keywords": [],
