@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/pg": "^8.11.6",
+    "ncc": "^0.3.6",
     "typescript": "^5.4.5"
   }
 }
